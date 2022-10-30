@@ -4,7 +4,7 @@
 
 If a model is underfitted, it has high bias and low variance.<br>
 This is because its prediction is consistently wrong. (consistent = low variance, wrong = high bias) <br>
-Also, it is important to understand that the noise is the cause of variance.<br>
+Also, it is important to understand that the noises are the cause of variance.<br>
 if a model failed to capture enough information, at the same time, it must also failed to capture enough noises, therefore, it must also of low variance.<br>  
 The argument above may not seem intuitive to all people. You can think that a " $Data_i$ " is the result of " $GroundTruthData_i$ " + some noise, eg.
 $$Data_i = GroundTruthData_i + \sum_k^M noise_k $$
