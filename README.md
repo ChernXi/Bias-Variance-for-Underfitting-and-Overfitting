@@ -23,7 +23,7 @@ We see that at certain epoch the variance will start to become the major cause o
 ## Bias-Variance Trade-off
 A good model should have low bias and low variance.<br>
 However, in most scenario, we can't get the lowest bias and the lowest variance at the same time, so we have to make a trade-off.<br>
-We have to choose a point where both the bias and the variance is aceptably low.<br>
+We have to choose a point where both the bias and the variance are aceptably low.<br>
 This is a point where our model is neither underfitted or overfitted, and also have the lowest error.<br>
 We see that this must be the valley point in the last picture, and this is also the point where we should stop our training.(We can get the optimize model by employing early-stopping)
 
