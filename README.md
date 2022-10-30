@@ -16,13 +16,14 @@ If a model is overfitted, it has low bias and high variance.<br>
 This is because its prediction is built to be extremely fitted to predict the train data but its performance is inconsitent across different test data.
 A picture of training process can be of help to our understanding. <br>
 ![image](https://user-images.githubusercontent.com/108325848/198884638-156f9585-996a-4fb6-bebc-494d17c244b7.png)<br>
-In the beginning of training, the major cause of the error in the test data prediction is the bias. As the training proceeds, more and more information are captured such that the bias is decreased, at the same time more and more noises are captured, therefore the variance is increased. 
-We see that at certain epoch the variance will start to become the major cause of the error, once this is happening, we can tell that the model has been overfitted. 
+In the beginning of training, the major cause of the error in the test data prediction is the bias. <br>
+As the training proceeds, more and more information are captured such that the bias is decreased, at the same time more and more noises are captured, therefore the variance is increased. <br>
+We see that at certain epoch the variance will start to become the major cause of the error, once this is happening, we can tell that the model has been overfitted. <br>
 
 ## Bias-Variance Trade-off
-A good model should have low bias and low variance.
-However, in most scenario, we can't get the lowest bias and the lowest variance at the same time, so we have to make a trade-off.
-We have to choose a point where both the bias and the variance is aceptably low.
-This is a point where our model is neither underfitted or overfitted.
-We see that this must be the valley point in the last picture, and this is also the point where we should stop our training.(by using early-stopping.)
+A good model should have low bias and low variance.<br>
+However, in most scenario, we can't get the lowest bias and the lowest variance at the same time, so we have to make a trade-off.<br>
+We have to choose a point where both the bias and the variance is aceptably low.<br>
+This is a point where our model is neither underfitted or overfitted, and also have the lowest error.<br>
+We see that this must be the valley point in the last picture, and this is also the point where we should stop our training.(We can get the optimize model by employing early-stopping)
 
