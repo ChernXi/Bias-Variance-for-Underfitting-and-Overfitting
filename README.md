@@ -8,7 +8,7 @@ Also, it is important to understand that the noises are the cause of variance.<b
 if a model failed to capture enough information, at the same time, it must also failed to capture enough noises, therefore, it must also of low variance.<br>  
 The argument above may not seem intuitive to all people. You can think that a " $Data_i$ " is the result of " $GroundTruthData_i$ " + some noise, eg.
 $$Data_i = GroundTruthData_i + \sum_k^M noise_k $$
-If a model failed to capture $Data_i$, as we expected, it failed to capture the $GroundTruthData_i$, also, we must not forget that it also failed to capture the noises, this is to say, the model is insensitive to the noises and its performance of prediction will not varies much from a prediction to another prediction.<br>
+If a model failed to capture $Data_i$, as we expected, it failed to capture the $GroundTruthData_i$, also, we must not forget that it also failed to capture the noises, this is to say, the model is not built according to the noises and its performance of prediction will not varies much from a prediction to another prediction.<br>
 
 ## Overfitted Model
 
