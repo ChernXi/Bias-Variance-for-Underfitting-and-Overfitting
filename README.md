@@ -14,7 +14,7 @@ If a model failed to capture $Data_i$, as we expected, it failed to capture the 
 
 If a model is overfitted, it has low bias and high variance.<br>
 This is because its prediction is built to be extremely fitted to predict the train data but its performance is inconsitent across different test data.
-A picture of training process can add to our understanding.
+A picture of training process can be of help to our understanding. <br>
 ![image](https://user-images.githubusercontent.com/108325848/198884638-156f9585-996a-4fb6-bebc-494d17c244b7.png)<br>
 In the beginning of training, the major cause of the error in the test data prediction is the bias. As the training proceeds, more and more information are captured such that the bias is decreased, at the same time more and more noises are captured, therefore the variance is increased. 
 We see that at certain epoch the variance will start to become the major cause of the error, once this is happening, we can tell that the model has been overfitted. 
