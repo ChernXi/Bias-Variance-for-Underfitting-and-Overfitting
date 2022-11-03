@@ -17,7 +17,7 @@ This is because its prediction is built to be extremely fitted to predict the tr
 A picture of training process can be of help to our understanding. <br>
 ![image](https://user-images.githubusercontent.com/108325848/198884638-156f9585-996a-4fb6-bebc-494d17c244b7.png)<br>
 In the beginning of training, the major cause of the error in the test data prediction is the bias. <br>
-As the training proceeds, more and more information are captured such that the bias is decreased, at the same time more and more noises are captured, therefore the variance is increased. <br>
+As the training proceeds, more and more information are captured such that the bias is decreased, at the same time more and more noises are captured, therefore the error of prediction on test data due to variance is increased. <br>
 We see that at certain epoch the variance will start to become the major cause of the error, once this is happening, we can tell that the model has been overfitted. <br>
 
 ## Bias-Variance Trade-off
