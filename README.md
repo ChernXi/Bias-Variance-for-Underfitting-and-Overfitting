@@ -5,7 +5,7 @@
 If a model is underfitted, it has high bias and low variance.<br>
 This is because its prediction is consistently wrong. (consistent = low variance, wrong = high bias) <br>
 Also, it is important to understand that the noises and heterogeneity are the causes of variance.<br>
-We may call them in a collective term: variability. 
+We may call them in a collective term: variability.<br>
 if a model failed to capture enough information, at the same time, it must also failed to capture enough variabilities, therefore, it must also of low variance.<br>  
 The argument above may not seem intuitive to all people. You can think that a " $Data_i$ " is the result of " $GroundTruthData_i$ " + some variabilities, eg.
 $$Data_i = GroundTruthData_i + \sum_k^M variabilities_k $$
