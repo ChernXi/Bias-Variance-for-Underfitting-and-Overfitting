@@ -8,7 +8,7 @@ Also, it is important to understand that the noises and heterogeneity are the ca
 We may call them in a collective term: variability.<br>
 if a model failed to capture enough information, at the same time, it must also failed to capture enough variabilities, therefore, it must also of low variance.<br>  
 The argument above may not seem intuitive to all people. You can think that a " $Data_i$ " is the result of " $commonality_i$ " + some variabilities, eg.
-$$Data_i = Commonality_i + \sum_k^M variability_k $$
+$$Data_i = Commonality_i + \sum_k^M Variability_k $$
 If a model failed to capture $Data_i$, as we expected, it failed to capture the $Commonality_i$, also, we must not forget that it also failed to capture the variabilities, this is to say, the model is not built according to its variabilities and its performance of prediction will not varies much from a test data to another test data.<br>
 
 ## Overfitted Model
